@@ -108,20 +108,13 @@
 			},
 			"request": {
 				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "Bearer  eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MTEwMjU2NjgsImlzcyI6IndoYXRldmVyIiwic3ViIjoiYWRtaW4iLCJleHAiOjE2MTE4ODk2Njh9.jABLq4at8Qlvj0HDJwEixhenpmiLso7a7gzIwJ6VLNsemwFPcRBQMG6kaH9NJTrJCHx9UGNXxYO2ehkWYbS15g",
-							"type": "string"
-						}
-					]
+					"type": "noauth"
 				},
 				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"nick\": \"admin\",\n    \"password\": \"password\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
